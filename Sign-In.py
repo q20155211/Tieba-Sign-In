@@ -61,13 +61,14 @@ async def main(BDUSS):
         print(f"签到率: {(sign_in_success_count+sign_in_already_count)*100/followed_forums_count}%")
 
 for i in BDUSS_SPLIT:
+    print(f"\n\n\n使用第 {user_count} 个 BDUSS 进行签到...")
+    print(f"获取第 {user_count} 个用户信息...")
     asyncio.run(main(i))
     if user_count<len(BDUSS_SPLIT) and user_count>1:
         print(f"第 {user_count} 个用户签到完成，等待 60 秒...")
         time.sleep(60)
         print("\n\n\n")
-    print(f"使用第 {user_count} 个 BDUSS 进行签到...")
-    print(f"获取第 {user_count} 个用户信息...")
+ 
     user_count+=1
 
 print("所有用户签到完成")
