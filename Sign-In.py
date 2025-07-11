@@ -32,7 +32,7 @@ async def main(BDUSS):
         sign_in_already_count=0
         sign_in_failed_count=0
         while True:
-            followed_forums=await client.get_follow_forums(id_=user.user_id,pn=followed_forums_pages)
+            followed_forums=await client.get_follow_forums(user.user_id,pn=followed_forums_pages)
             for x in followed_forums.objs:
                 print(f"{x.fname} ({x.fid})",end=" ")
                 
