@@ -59,7 +59,10 @@ async def main(BDUSS):
         print(f"已签到: {sign_in_already_count} 个")
         print(f"签到成功: {sign_in_success_count} 个")
         print(f"签到失败: {sign_in_failed_count} 个")
-        print(f"签到率: {(sign_in_success_count+sign_in_already_count)*100/followed_forums_count}%")
+        if followed_forums_count > 0:
+            print(f"签到率: {(sign_in_success_count+sign_in_already_count)*100/followed_forums_count}%")
+        else:
+            print("签到率: 无（未关注任何贴吧）")
 
 for i in BDUSS_SPLIT:
     print(f"\n\n\n使用第 {user_count} 个 BDUSS 进行签到...")
