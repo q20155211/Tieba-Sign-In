@@ -4,7 +4,7 @@ import time
 import os
 import sys
 
-BDUSS = os.getenv("BDUSS")
+BDUSS = str(os.getenv("BDUSS"))
 if not BDUSS:
     print("未设置环境变量 BDUSS , 程序退出")
     sys.exit()
