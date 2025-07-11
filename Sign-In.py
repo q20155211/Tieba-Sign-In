@@ -10,6 +10,7 @@ if not BDUSS:
     sys.exit()
 BDUSS_SPLIT=BDUSS.split("#")
 user_count=1
+print(f"用户数量: {len(BDUSS_SPLIT)}")
 
 async def main(BDUSS):
     async with tb.Client(BDUSS=BDUSS) as client:
