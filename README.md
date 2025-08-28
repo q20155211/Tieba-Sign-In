@@ -11,7 +11,7 @@
 
 Fork 本仓库，然后在你 Fork 的仓库的 Settings 中，找到 Secrets and Variables 这一项，添加一个 Secret ，名字为 `BDUSS` ，值为你的 BDUSS，支持同时添加多个BDUSS，多个BDUSS 之间用 `#` 隔开即可
 
-上方签到状态为`[![Tieba Sign-In](https://github.com/q20155211/Tieba-Sign-In/actions/workflows/main.yml/badge.svg)](https://github.com/q20155211/Tieba-Sign-In/actions/workflows/main.yml)`，在不改变项目名称的情况下，将其中的两处`q20155211`改为你的github名称即可显示运行状态，但是显示`passing`不一定代表签到成功，因为是基于python程序是否报错退出来显示`passing`或`failed`，建议看日志确认是否有问题
+上方签到状态为`[![Tieba Sign-In](https://github.com/q20155211/Tieba-Sign-In/actions/workflows/main.yml/badge.svg)](https://github.com/q20155211/Tieba-Sign-In/actions/workflows/main.yml)`，在不改变项目名称的情况下，将其中的两处`q20155211`改为你的github名称即可显示运行状态，但是显示`passing`不一定代表签到成功，因为是基于python程序是否报错退出来显示`passing`或`failed`，建议看actions日志确认是否有问题
 
 ### 如何获取BDUSS：
 在网页中登录[贴吧](https://tieba.baidu.com)，然后按下`F12`打开调试模式，在`cookie`中找到`BDUSS`，并复制其`Value`值
