@@ -1,7 +1,7 @@
 # Tieba-Sign-In
 基于Python的aiotieba库并使用Github Action实现贴吧每日自动签到
 
-[原项目lumina37/aiotieba](https://github.com/lumina37/aiotieba)快去点star！
+[使用的python库repo lumina37/aiotieba](https://github.com/lumina37/aiotieba)快去点star！
 
 ### 今日签到状态
 
