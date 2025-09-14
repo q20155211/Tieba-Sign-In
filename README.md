@@ -16,7 +16,7 @@ Fork 本仓库，然后在你 Fork 的仓库的 Settings 中，找到 Secrets an
 ### 如何获取BDUSS：
 在网页中登录[贴吧](https://tieba.baidu.com)，然后按下`F12`打开调试模式，在`cookie`中找到`BDUSS`，并复制其`Value`值
 
-或者登录tieba lite，在 设置 - 账号管理 中复制BDUSS
+或者使用tieba lite，登陆后在 设置 - 账号管理 中复制BDUSS
 
 ## 注意
 使用BDUSS可以完成一切不需要手机/邮箱验证码的操作，包括发帖/发私信/获取账号上的所有历史发言
