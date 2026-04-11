@@ -1,7 +1,7 @@
 # Tieba-Sign-In
 基于Python的aiotieba库并使用Github Action实现贴吧每日自动签到
 
-使用的python库repo [lumina37/aiotieba](https://github.com/lumina37/aiotieba)快去点star！
+使用的python库repo [lumina37/aiotieba](https://github.com/lumina37/aiotieba) 快去点star！
 
 ### 今日签到状态
 
@@ -25,4 +25,4 @@ BDUSS的过期时间长达数年，一般只能通过退出登录或修改密码
 
 因此将BDUSS泄露给不受信任的人可能导致长期的账号安全风险和隐私泄露风险
 
-#### *于`2025年12月14日 19:49:13`验证可用，使用本项目有概率导致客户端无法点赞甚至封号，请自行斟酌使用风险
+#### *于`2026年4月11日22:45:25`验证可用，使用本项目有概率导致客户端无法点赞甚至封号，请自行斟酌使用风险
